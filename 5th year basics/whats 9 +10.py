@@ -1,0 +1,5 @@
+print("you stupid")
+print("no im not")
+print("what's", 9, "+", 10,"?")
+print(21)
+print("you stupid")
