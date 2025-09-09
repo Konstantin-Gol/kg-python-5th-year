@@ -1,0 +1,15 @@
+rnd1 = round(27.168459, 1)
+rnd2 = round(27.168459, 2)
+rnd3 = round(27.168459, 3)
+rnd4 = round(27.168459, 4)
+rnd5 = round(27.168459, 5)
+rnd6 = round(27.168459, 6)
+
+abs1 = abs(-273)
+abs2 = abs(-1.27)
+abs3 = abs(0)
+abs4 = abs(32)
+
+pow1 = pow (5, 2)
+pow2 = pow(2, 16)
+pow3 = pow(4, 3)
