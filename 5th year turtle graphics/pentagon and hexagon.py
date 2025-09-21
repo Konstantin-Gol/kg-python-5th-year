@@ -16,8 +16,10 @@ def pentagon():
         left(72)
         fd(200)
 
-penup()
+pen_up()
 fd(50)
+pen_down()
 pentagon()
 
 hexagon()
+
