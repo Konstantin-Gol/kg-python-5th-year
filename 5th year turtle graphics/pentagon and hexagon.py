@@ -17,6 +17,7 @@ def pentagon():
         fd(200)
 
 penup()
-fd(
+fd(50)
 pentagon()
+
 hexagon()
