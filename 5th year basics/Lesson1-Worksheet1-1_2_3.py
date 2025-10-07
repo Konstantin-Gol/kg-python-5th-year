@@ -9,7 +9,7 @@
 #
 
 course = "LeavingCertComputerScience"
-
+          01234567890123456789012345
 # Example completed for you:
 example = course[0:7]  # "Leaving"
 
@@ -50,7 +50,7 @@ answer9 = course[0] + course[7] + course[11]  # "LCC"
 #
 
 # 10. Extract characters in positions 2, 5, 8, 11
-answer10 = course[2] + course[5] + course[8] + course[11]  # "agCC"
+answer10 = course[2] + course[5] + course[8] + course[11]  # "aneC"
 
 # 11. Get every third character from the end
-answer11 = course[::-3]  # "ecSeo"
+answer11 = course[::-3]  # "eeStmtCie"
