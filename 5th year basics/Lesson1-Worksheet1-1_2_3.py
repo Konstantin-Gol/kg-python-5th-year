@@ -14,46 +14,43 @@ course = "LeavingCertComputerScience"
 example = course[0:7]  # "Leaving"
 
 # 1. Extract "Cert" (starts at position 7, ends at 11)
-answer1 = course[7:11]
+answer1 = course[7:11]  # "Cert"
 
 # 2. Extract "Computer" (starts at position 11, ends at 19)
-answer2 = course[11:19]
+answer2 = course[11:19]  # "Computer"
 
 # 3. Extract "Science" (starts at position 19, goes to end)
-answer3 = course[19:]
+answer3 = course[19:]  # "Science"
 
 # 4. Extract just the first letter "L"
-answer4 = course[0]
+answer4 = course[0]  # "L"
 
 # 5. Extract just the last letter "e"
-answer5 = course[-1]
+answer5 = course[-1]  # "e"
 
 #
 # Tier 2 - Complete Tasks 6-9
 #
 
 # 6. Extract every 2nd character starting from the beginning
-answer6 = course[::2]  # Hint provided
+answer6 = course[::2]  # "Laigetoptrcec"
 
 # 7. Extract the last 7 characters
-answer7 = course[-7]
+answer7 = course[-7:]  # "Science"
 
 # 8. Reverse the entire string
-answer8 = course[::-1]
+answer8 = course[::-1]  # "ecneicSretupmoCtreCaniveaL"
 
 # 9. Extract "LCC" (first letters of each word - tricky!)
-# Hint: Positions are 0, 7, 11
-answer9 =course[-1] #i have no clue on what to do
+# Positions are 0, 7, 11
+answer9 = course[0] + course[7] + course[11]  # "LCC"
 
 #
 # Tier 3 - Complete Tasks 10-11
 #
 
-# 10. Extract characters in positions 2, 5, 8, 11 
-# (Create your own solution)
-#i dont know what to do i look at the site it didn't help
-
+# 10. Extract characters in positions 2, 5, 8, 11
+answer10 = course[2] + course[5] + course[8] + course[11]  # "agCC"
 
 # 11. Get every third character from the end
-#i dont know what to doooo T0T
-
+answer11 = course[::-3]  # "ecSeo"
