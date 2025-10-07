@@ -43,7 +43,7 @@ answer8 = course[::-1]
 
 # 9. Extract "LCC" (first letters of each word - tricky!)
 # Hint: Positions are 0, 7, 11
-answer9 =course[-1] #uhh idk tbh
+answer9 =course[-1] #i have no clue on what to do
 
 #
 # Tier 3 - Complete Tasks 10-11
@@ -51,8 +51,9 @@ answer9 =course[-1] #uhh idk tbh
 
 # 10. Extract characters in positions 2, 5, 8, 11 
 # (Create your own solution)
-#uh oh i have no clue on what to do
+#i dont know what to do i look at the site it didn't help
 
 
 # 11. Get every third character from the end
-#error: brain has appeared to malfunction please restart or report what caused it so it msy be fixed
+#i dont know what to doooo T0T
+
