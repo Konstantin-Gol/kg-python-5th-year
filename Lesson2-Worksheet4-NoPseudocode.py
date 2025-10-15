@@ -13,4 +13,8 @@ def username_check():
     if username >= 5:
         username_pass = username_pass + 1
     elif username <= 15:
-        username_pass += username_pass + 1
+        username_pass = username_pass + 1
+first_letter = username[0]
+char1 = first_letter.isalpha()
+    if char1 is True:
+        username_pass += 1
