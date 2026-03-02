@@ -5,5 +5,35 @@ p{
 	font-size: 20px;color: red;
 	}
 body{
-	background-color: black; font-family: Google Sans;
+	background-color: #3D3D3D; font-family: Google Sans;
 	}
+/*Add styling to navigation bar*/
+/*This code must be added to your style.css file*/
+a{
+	font-size: 15px;color: gold;
+}
+ 
+.nav {
+
+    background-color: #6E6E42;
+
+    padding: 10px;
+
+}
+ 
+.nav a {
+
+    color: white;
+
+    margin-right: 15px;
+
+    text-decoration: none;
+
+}
+ 
+.nav a:hover {
+
+    text-decoration: underline;
+
+}
+ 
