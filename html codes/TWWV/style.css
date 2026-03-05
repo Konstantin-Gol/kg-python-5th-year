@@ -1,0 +1,39 @@
+h1{
+		color: green;
+	}
+p{
+	font-size: 20px;color: green;
+	}
+body{
+	background-color: black; font-family: Google Sans;
+	}
+/*Add styling to navigation bar*/
+/*This code must be added to your style.css file*/
+a{
+	color: lime;
+}
+ 
+.nav {
+
+    background-color: #0A0A0A;
+
+    padding: 10px;
+
+}
+ 
+.nav a {
+
+    color: green;
+
+    margin-right: 15px;
+
+    text-decoration: none;
+
+}
+ 
+.nav a:hover {
+
+    text-decoration: underline;
+
+}
+ 
