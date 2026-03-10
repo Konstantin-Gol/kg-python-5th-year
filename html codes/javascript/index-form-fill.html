@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Completing Forms Task 1</title>
+</head>
+<body>
+  <form onsubmit="return validateEmail()">
+       Enter your email: <input type="text" id="email">
+       <input type="submit" value="Submit email">
+  </form>
+ <form onsubmit="return validateNumber()">
+       Age: <input type="text" id="age">
+       <input type="submit" value="Submit">
+  </form>
+ 
+  <script>
+  console.log("this is a message for the console.");
+  function validateEmail() {
+       let email = document.getElementById("email").value;
+       if (email == "") {
+           alert("Email must be filled out");console.log("IM THE EVIL TWIN OW THE FIRST MESSAGE MUAHAHAHAHAHAHA");
+           return false;
+       }
+       return true;
+  }
+  
+  function validateNumber() {
+       let age = document.getElementById("age").value;
+       if (isNaN(age) || age == "") {
+           alert("Please enter a valid number");
+           return false;
+       }
+       return true;
+  }
+  </script>
+</body>
+</html>

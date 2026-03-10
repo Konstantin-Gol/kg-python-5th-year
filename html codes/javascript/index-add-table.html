@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Table Task 1</title>
+</head>
+<body>
+  <form onsubmit="addRow(); return false;">
+       Name: <input type="text" id="name">
+       Age: <input type="text" id="age">
+       <input type="submit" value="Add">
+  </form>
+ 
+  <table id="dataTable" border="1">
+       <tr>
+           <th>Name</th>
+           <th>Age</th>
+       </tr>
+  </table>
+ <script>
+  function addRow() {
+       let table = document.getElementById("dataTable");
+       let row = table.insertRow();
+       let nameCell = row.insertCell(0);
+       let ageCell = row.insertCell(1);
+       let name = document.getElementById("name").value;
+       let age = document.getElementById("age").value;
+       nameCell.innerHTML = name;
+       ageCell.innerHTML = age;
+	   document.getElementById("name").value = ""; 
+        document.getElementById("age").value = ""; 
+  }
+  </script>
+</body>
+</html>
